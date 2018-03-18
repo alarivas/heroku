@@ -3,7 +3,7 @@ from crud.models import Company, Laptop, Employee
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic import ListView, DetailView
 from django.views.generic.base import TemplateView
-from django.core.urlresolvers import reverse_lazy
+from django.urls import reverse_lazy
 # Create your views here.
 
 
